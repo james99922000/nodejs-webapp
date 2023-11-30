@@ -1,0 +1,16 @@
+{
+  "name": "james-nodejs-webapp",
+  "version": "1.0.0",
+  "description": "first nodejs app",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 60000 --exit",
+    "start": "node server.js"
+  },
+  "author": "James Jamescollier00@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mocha": "^10.2.0"
+  }
+}
