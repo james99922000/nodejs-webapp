@@ -9,7 +9,7 @@ pipeline {
     registyUrl = "jamesacr1983.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
-    registryCredential  = "jamesC-acr"
+    registryCredential  = "JamesC-acr"
     }
     stages { 
         stage('SCM Checkout') {
